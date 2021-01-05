@@ -1,30 +1,25 @@
 import React from 'react';
 
-import banner from '../assets/images/banner.jpg';
-
 import style from './styles/About.module.css';
 
 export default function About() {
   return (
-    <section id="about">
-      <div className={style.banner}>
-        <img src={banner} alt="" />
-      </div>
-      <div className={style.container}>
-        <header className={style.major}>
-          <h2>Read Only</h2>
+    <section id="about" className="main">
+      <div className={style.spotlight}>
+        <div className={style.content}>
+          <header className={style.major}>
+            <h2>Sobre</h2>
+          </header>
           <p>
-            a<br />c<a href="http://html5up.net">b</a>b.
+            Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat
+            magna adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus
+            sit cursus. Tempus nisl et nullam lorem ipsum dolor sit amet
+            aliquam.
           </p>
-        </header>
-        <p>
-          Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col.
-          Commodo id in arcu ante lorem ipsum sed accumsan erat praesent
-          faucibus commodo ac mi lacus. Adipiscing mi ac commodo. Vis aliquet
-          tortor ultricies non ante erat nunc integer eu ante ornare amet
-          commetus vestibulum blandit integer in curae ac faucibus integer non.
-          Adipiscing cubilia elementum.
-        </p>
+        </div>
+        <span className={style.image}>
+          <img src={{}} alt="" />
+        </span>
       </div>
     </section>
   );

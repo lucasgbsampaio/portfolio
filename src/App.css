@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+
 a {
   text-decoration: none;
 }
 
 ul {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 body,
@@ -11,13 +15,174 @@ input,
 button,
 textarea,
 a {
-  font: 400 16px 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-size: 17pt;
+  font-weight: 400;
+  line-height: 1.65;
+}
+
+body {
+  background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: rgba(255, 255, 255, 0.65);
 }
 
 #wrapper {
-  background: #f3f2ee;
-  padding-left: 25em;
+  width: 64em;
+  max-width: calc(100% - 4em);
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 480px) {
+  #wrapper {
+    max-width: calc(100% - 2em);
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #wrapper {
+    max-width: 100%;
+  }
+}
+
+#header {
+  animation: 1.5s ease 0s normal forwards 1 fadein;
+  -webkit-animation: 1.5s ease 0s normal forwards 1 fadein;
+  opacity: 1;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#header {
+  padding: 7em 5em 4em 5em;
+
+  text-align: center;
+}
+
+#header h1 {
+  margin: 0 0 0.25em 0;
+  color: #ffffff;
+  font-size: 3em;
+  letter-spacing: -0.025em;
+  font-family: 'Yeon Sung', cursive;
+}
+
+#header p {
+  font-size: 1.25em;
+  letter-spacing: -0.025em;
+  font-family: 'Yeon Sung', cursive;
+  font-weight: 600;
+}
+
+#nav {
+  transition: background-color 0.2s ease, border-top-left-radius 0.2s ease,
+    border-top-right-radius 0.2s ease, padding 0.2s ease;
+  color: #636363;
+  position: absolute;
+  width: 64em;
+  max-width: calc(100% - 4em);
+  padding: 1em 0;
+  background-color: #f7f7f7;
+  border-top-left-radius: 0.25em;
+  border-top-right-radius: 0.25em;
+  cursor: default;
+  text-align: center;
+}
+
+#nav a:hover {
+  color: #636363;
+}
+
+#nav + #main {
+  padding-top: 4.25em;
+}
+
+#nav ul li {
+  transition: margin 0.2s ease;
+  display: inline-block;
+  margin: 0 0.35em;
+  padding: 0;
+  vertical-align: middle;
+}
+
+#nav ul li a {
+  transition: font-size 0.2s ease;
+  display: inline-block;
+  height: 2.25em;
+  line-height: 2.25em;
+  padding: 0 1.25em;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: inset 0 0 0 1px transparent;
+  color: inherit;
+}
+
+#nav ul li a:hover {
+  background-color: rgba(222, 222, 222, 0.25);
 }
 
 #main {
+  background-color: #ffffff;
+  color: #636363;
+  border-radius: 0.25em;
+}
+
+#main > .main {
+  padding: 5em 5em 3em 5em;
+  border-top: solid 1px #dddddd;
+}
+
+#main > .main.special {
+  text-align: center;
+}
+
+#main > .main:first-child {
+  border-top: 0;
+}
+
+.main .major {
+  margin: 0 0 2em 0;
+}
+
+.main .major h2 {
+  color: #636363;
+  font-size: 2em;
+  line-height: 1.5;
+  margin: 0 0 0.7em 0;
+  letter-spacing: -0.025em;
+}
+
+.main .major h2::after {
+  display: block;
+  content: '';
+  width: 3.25em;
+  height: 2px;
+  margin: 0.7em 0 1em 0;
+  border-radius: 2px;
+  background-color: #dddddd;
+  background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+  margin-left: auto;
+  margin-right: auto;
 }

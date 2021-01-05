@@ -4,89 +4,114 @@ import style from './styles/Projects.module.css';
 
 export default function Projects() {
   return (
-    <section id="projects">
-      <div className={style.container}>
-        <h3>Projetos recentes</h3>
-        <p>
-          Integer eu ante ornare amet commetus vestibulum blandit integer in
-          curae ac faucibus integer non. Adipiscing cubilia elementum integer.
-          Integer eu ante ornare amet commetus.
-        </p>
-        <div className={style.features}>
-          <article>
-            <a href={{}} className={style.image}>
-              <img src="images/pic01.jpg" alt="" />
-            </a>
-            <div className={style.inner}>
-              <h4>a</h4>
-              <p>
-                Integer eu ante ornare amet commetus vestibulum blandit integer
-                in curae ac faucibus integer adipiscing ornare amet.
-              </p>
-            </div>
-          </article>
-          <article>
-            <a href={{}} className={style.image}>
-              <img src="images/pic02.jpg" alt="" />
-            </a>
-            <div className={style.inner}>
-              <h4>b</h4>
-              <p>
-                Integer eu ante ornare amet commetus vestibulum blandit integer
-                in curae ac faucibus integer adipiscing ornare amet.
-              </p>
-            </div>
-          </article>
-          <article>
-            <a href={{}} className={style.image}>
-              <img src="images/pic03.jpg" alt="" />
-            </a>
-            <div className={style.inner}>
-              <h4>c</h4>
-              <p>
-                Integer eu ante ornare amet commetus vestibulum blandit integer
-                in curae ac faucibus integer adipiscing ornare amet.
-              </p>
-            </div>
-          </article>
-          <article>
-            <a href={{}} className={style.image}>
-              <img src="images/pic03.jpg" alt="" />
-            </a>
-            <div className={style.inner}>
-              <h4>d</h4>
-              <p>
-                Integer eu ante ornare amet commetus vestibulum blandit integer
-                in curae ac faucibus integer adipiscing ornare amet.
-              </p>
-            </div>
-          </article>
-          <article>
-            <a href={{}} className={style.image}>
-              <img src="images/pic03.jpg" alt="" />
-            </a>
-            <div className={style.inner}>
-              <h4>e</h4>
-              <p>
-                Integer eu ante ornare amet commetus vestibulum blandit integer
-                in curae ac faucibus integer adipiscing ornare amet.
-              </p>
-            </div>
-          </article>
-          <article>
-            <a href={{}} className={style.image}>
-              <img src="images/pic03.jpg" alt="" />
-            </a>
-            <div className={style.inner}>
-              <h4>f</h4>
-              <p>
-                Integer eu ante ornare amet commetus vestibulum blandit integer
-                in curae ac faucibus integer adipiscing ornare amet.
-              </p>
-            </div>
-          </article>
-        </div>
-      </div>
+    <section id="projects" className="main special">
+      <header className="major">
+        <h2>Projetos</h2>
+      </header>
+      <ul className={style.features}>
+        <li>
+          <span className="icon solid major style1 fa-code"></span>
+          <h3>Ipsum consequat</h3>
+          <p>
+            Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
+            consequat tempus veroeros sed consequat.
+          </p>
+          <footer className="major">
+            <ul className="actions special">
+              <li>
+                <a href="generic.html" className="button">
+                  Learn More
+                </a>
+              </li>
+            </ul>
+          </footer>
+        </li>
+        <li>
+          <span className="icon major style3 fa-copy"></span>
+          <h3>Amed sed feugiat</h3>
+          <p>
+            Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
+            consequat tempus veroeros sed consequat.
+          </p>
+          <footer className="major">
+            <ul className="actions special">
+              <li>
+                <a href="generic.html" className="button">
+                  Learn More
+                </a>
+              </li>
+            </ul>
+          </footer>
+        </li>
+        <li>
+          <span className="icon major style5 fa-gem"></span>
+          <h3>Dolor nullam</h3>
+          <p>
+            Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
+            consequat tempus veroeros sed consequat.
+          </p>
+          <footer className="major">
+            <ul className="actions special">
+              <li>
+                <a href="generic.html" className="button">
+                  Learn More
+                </a>
+              </li>
+            </ul>
+          </footer>
+        </li>
+        <li>
+          <span className="icon major style5 fa-gem"></span>
+          <h3>Dolor nullam</h3>
+          <p>
+            Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
+            consequat tempus veroeros sed consequat.
+          </p>
+          <footer className="major">
+            <ul className="actions special">
+              <li>
+                <a href="generic.html" className="button">
+                  Learn More
+                </a>
+              </li>
+            </ul>
+          </footer>
+        </li>
+        <li>
+          <span className="icon major style5 fa-gem"></span>
+          <h3>Dolor nullam</h3>
+          <p>
+            Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
+            consequat tempus veroeros sed consequat.
+          </p>
+          <footer className="major">
+            <ul className="actions special">
+              <li>
+                <a href="generic.html" className="button">
+                  Learn More
+                </a>
+              </li>
+            </ul>
+          </footer>
+        </li>
+        <li>
+          <span className="icon major style5 fa-gem"></span>
+          <h3>Dolor nullam</h3>
+          <p>
+            Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
+            consequat tempus veroeros sed consequat.
+          </p>
+          <footer className="major">
+            <ul className="actions special">
+              <li>
+                <a href="generic.html" className="button">
+                  Learn More
+                </a>
+              </li>
+            </ul>
+          </footer>
+        </li>
+      </ul>
     </section>
   );
 }

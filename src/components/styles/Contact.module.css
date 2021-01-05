@@ -1,0 +1,23 @@
+.major {
+  margin-top: 3em;
+}
+
+.icons {
+  margin: 0 0 2em 0;
+}
+
+.icons li {
+  display: inline-block;
+  padding: 0 1em 0 0;
+}
+
+.icons li a {
+  border: #dddddd solid 1px;
+  width: 50px;
+  height: 45px;
+  border-radius: 100%;
+  display: inline-block;
+  text-align: center;
+  color: #636363;
+  font-size: 32px;
+}
