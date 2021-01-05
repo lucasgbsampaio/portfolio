@@ -1,0 +1,36 @@
+#footer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5em 5em 3em 5em;
+}
+
+.copyright {
+  width: 100%;
+  margin: 2.5em 0 2em 0;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+@media screen and (max-width: 1280px) {
+  #footer {
+    padding: 4em 4em 2em 4em;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  #footer {
+    padding: 4em 3em 2em 3em;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  #footer {
+    padding: 3em 2em 1em 2em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #footer {
+    padding: 2.5em 1em 0.5em 1em;
+  }
+}

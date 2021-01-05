@@ -7,7 +7,7 @@ export default function About() {
     <section id="about" className="main">
       <div className={style.spotlight}>
         <div className={style.content}>
-          <header className={style.major}>
+          <header className="major">
             <h2>Sobre</h2>
           </header>
           <p>
