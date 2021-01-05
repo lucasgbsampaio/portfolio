@@ -1,0 +1,23 @@
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body,
+input,
+button,
+textarea,
+a {
+  font: 400 16px 'Source Sans Pro', sans-serif;
+}
+
+#wrapper {
+  background: #f3f2ee;
+  padding-left: 25em;
+}
+
+#main {
+}
