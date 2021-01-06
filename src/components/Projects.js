@@ -10,102 +10,97 @@ export default function Projects() {
       </header>
       <ul className={style.features}>
         <li>
-          <span className="icon solid major style1 fa-code"></span>
-          <h3>Ipsum consequat</h3>
+          <img className={style.image} src={{}} alt="" />
+          <h3>Chat App</h3>
           <p>
-            Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-            consequat tempus veroeros sed consequat.
+            Aplicativo de salas de conversas com comunicação em tempo real
+            através de websockets. Totalmente responsivo, possui uma versão
+            adaptada para mobile.
           </p>
-          <footer className="major">
-            <ul className="actions special">
+          <footer className={style.footerImage}>
+            <ul>
               <li>
-                <a href="generic.html" className="button">
-                  Learn More
-                </a>
+                <a href="https://chat-pern.herokuapp.com/">Live Demo</a>
+                <a href="https://github.com/lucasfe4nor/chatroom-app">Github</a>
               </li>
             </ul>
           </footer>
         </li>
         <li>
-          <span className="icon major style3 fa-copy"></span>
-          <h3>Amed sed feugiat</h3>
+          <img className={style.image} src={{}} alt="" />
+          <h3>WeatherAbove</h3>
           <p>
-            Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-            consequat tempus veroeros sed consequat.
+            Aplicação de previsão do tempo que apresenta dados meteorológicos de
+            uma determinada cidade.
           </p>
-          <footer className="major">
-            <ul className="actions special">
+          <footer className={style.footerImage}>
+            <ul>
               <li>
-                <a href="generic.html" className="button">
-                  Learn More
-                </a>
+                <a href="https://appweather-above.herokuapp.com">Live Demo</a>
+                <a href="https://github.com/lucasfe4nor/app-weather">Github</a>
               </li>
             </ul>
           </footer>
         </li>
         <li>
-          <span className="icon major style5 fa-gem"></span>
-          <h3>Dolor nullam</h3>
+          <img className={style.image} src={{}} alt="" />
+          <h3>Dogs</h3>
           <p>
-            Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-            consequat tempus veroeros sed consequat.
+            Rede social para cachorros no estilo do Instagram. É possível postar
+            fotos, comentar e interagir com outros usuários.
           </p>
-          <footer className="major">
-            <ul className="actions special">
+          <footer className={style.footerImage}>
+            <ul>
               <li>
-                <a href="generic.html" className="button">
-                  Learn More
-                </a>
+                <a href="https://dogss-app.herokuapp.com">Live Demo</a>
+                <a href="https://github.com/lucasfe4nor/app-dogs">Github</a>
               </li>
             </ul>
           </footer>
         </li>
         <li>
-          <span className="icon major style5 fa-gem"></span>
-          <h3>Dolor nullam</h3>
+          <img className={style.image} src={{}} alt="" />
+          <h3>To-Do App</h3>
           <p>
-            Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-            consequat tempus veroeros sed consequat.
+            Site de registro de tarefas para obter controle e planejamento ao
+            receber uma lista de afazeres.
           </p>
-          <footer className="major">
-            <ul className="actions special">
+          <footer className={style.footerImage}>
+            <ul>
               <li>
-                <a href="generic.html" className="button">
-                  Learn More
-                </a>
+                <a href="https://to-do-lisst.herokuapp.com">Live Demo</a>
+                <a href="https://github.com/lucasfe4nor/to-do-app">Github</a>
               </li>
             </ul>
           </footer>
         </li>
         <li>
-          <span className="icon major style5 fa-gem"></span>
-          <h3>Dolor nullam</h3>
-          <p>
-            Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-            consequat tempus veroeros sed consequat.
-          </p>
-          <footer className="major">
-            <ul className="actions special">
+          <img className={style.image} src={{}} alt="" />
+          <h3>Portfólio</h3>
+          <p>Meu Portfólio feito com React, totalmente responsivo.</p>
+          <footer className={style.footerImage}>
+            <ul>
               <li>
-                <a href="generic.html" className="button">
-                  Learn More
-                </a>
+                <a href="https://lucas-sampaio.github.io">Live Demo</a>
+                <a href="https://github.com/lucasfe4nor/portfolio">Github</a>
               </li>
             </ul>
           </footer>
         </li>
         <li>
-          <span className="icon major style5 fa-gem"></span>
-          <h3>Dolor nullam</h3>
+          <img className={style.image} src={{}} alt="" />
+          <h3>Happy</h3>
           <p>
-            Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-            consequat tempus veroeros sed consequat.
+            Feito no dia das Crianças, é um aplicativo de registro de
+            Acolhimento Institucional e possui uma versão Mobile com React
+            Native.
           </p>
-          <footer className="major">
-            <ul className="actions special">
+          <footer className={style.footerImage}>
+            <ul>
               <li>
-                <a href="generic.html" className="button">
-                  Learn More
+                <a href={{}}>Live Demo</a>
+                <a href="https://github.com/lucasfe4nor/happy-app-nlw">
+                  Github
                 </a>
               </li>
             </ul>
