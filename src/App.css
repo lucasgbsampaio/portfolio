@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+
 a {
   text-decoration: none;
 }
@@ -71,11 +73,12 @@ body {
   padding: 7em 5em 4em 5em;
   text-align: center;
 }
-
 #header h1 {
   margin: 0 0 0.2em 0;
   color: #ffffff;
-  font-size: 3em;
+  font-size: 3.5em;
+  font-family: 'Lemonada', cursive;
+
   letter-spacing: -0.025em;
 }
 
