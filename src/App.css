@@ -134,6 +134,24 @@ body {
   background-color: rgba(222, 222, 222, 0.25);
 }
 
+#nav.alt {
+  position: fixed;
+  top: 0;
+  padding: 0.5em 0;
+  background-color: rgba(247, 247, 247, 0.95);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  z-index: 10000;
+}
+
+#nav.alt ul li {
+  margin: 0 0.175em;
+}
+
+#nav.alt ul li a {
+  font-size: 0.9em;
+}
+
 #main {
   background-color: #ffffff;
   color: #636363;

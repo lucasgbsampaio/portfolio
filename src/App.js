@@ -10,6 +10,14 @@ import 'normalize.css';
 import './App.css';
 
 export default function App() {
+  const [scroll, setScroll] = React.useState(false);
+
+  React.useEffect(() => {
+    window.addEventListener('scroll', () => {
+      setScroll(window.scrollY > 477);
+    });
+  }, []);
+
   return (
     <div id="wrapper">
       <header id="header">
@@ -17,12 +25,10 @@ export default function App() {
         <p>Full Stack Web Developer</p>
       </header>
 
-      <nav id="nav">
+      <nav id="nav" className={scroll ? 'alt' : null}>
         <ul>
           <li>
-            <a href="#about" className="active">
-              Sobre
-            </a>
+            <a href="#about">Sobre</a>
           </li>
           <li>
             <a href="#skills">Skills</a>
