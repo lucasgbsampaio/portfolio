@@ -69,6 +69,7 @@ export default function Projects() {
             </ul>
           </footer>
         </li>
+        <div className={style.horizontalLine}></div>
         <li>
           <div className={style.image}>
             <img src={toDoList} alt="toDoList" />
