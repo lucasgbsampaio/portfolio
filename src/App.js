@@ -12,6 +12,7 @@ import './App.css';
 export default function App() {
   const [scroll, setScroll] = React.useState(false);
 
+  // fixar header a um certo ponto
   React.useEffect(() => {
     window.addEventListener('scroll', () => {
       setScroll(window.scrollY > 477);
