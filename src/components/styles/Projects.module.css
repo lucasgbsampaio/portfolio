@@ -69,6 +69,7 @@
   line-height: 2.75em;
   min-width: 4.25em;
   padding: 0 1.5em;
+  margin: 5px;
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
@@ -78,9 +79,18 @@
   background-color: #dddddd8a;
 }
 
+@media screen and (max-width: 1325px) {
+  .footerImage ul li {
+    display: block;
+  }
+}
+
 @media screen and (max-width: 980px) {
   .features > li {
     width: calc(50% - 2em);
+  }
+  .horizontalLine {
+    display: none;
   }
 }
 

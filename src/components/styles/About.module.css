@@ -7,3 +7,9 @@
 .content {
   flex: 1;
 }
+
+@media screen and (max-width: 480px) {
+  .spotlight {
+    text-align: center;
+  }
+}
