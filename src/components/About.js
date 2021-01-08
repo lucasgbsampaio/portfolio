@@ -11,15 +11,15 @@ export default function About() {
             <h2>Sobre</h2>
           </header>
           <p>
-            Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat
-            magna adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus
-            sit cursus. Tempus nisl et nullam lorem ipsum dolor sit amet
-            aliquam.
+            Sou um estudante de desenvolvimento web em busca da primeira
+            experiência profissional na área de tecnologia. Escrevi minha
+            primeira linha de código aos 12 anos e desde então venho estudando
+            por conta própria. Assuntos como ciência e tecnologia fazem parte do
+            meu dia a dia e adoro discuti-los. Como desenvolvedor, gosto muito
+            do processo de criar algo e sempre estou disposto a aprender coisas
+            novas.
           </p>
         </div>
-        <span className={style.image}>
-          <img src={{}} alt="" />
-        </span>
       </div>
     </section>
   );
