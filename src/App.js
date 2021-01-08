@@ -12,10 +12,23 @@ import './App.css';
 export default function App() {
   const [scroll, setScroll] = React.useState(false);
 
-  // fixar header a um certo ponto
+  // fixar barra de navegação a um certo ponto
   React.useEffect(() => {
     window.addEventListener('scroll', () => {
-      setScroll(window.scrollY > 477);
+      switch (true) {
+        case window.innerWidth <= 1280 && window.innerWidth >= 736:
+          setScroll(window.scrollY > 337);
+          break;
+        case window.innerWidth <= 736 && window.innerWidth >= 564:
+          setScroll(window.scrollY > 311);
+          break;
+        case window.innerWidth <= 564 && window.innerWidth >= 480:
+          setScroll(window.scrollY > 377);
+          break;
+        default:
+          setScroll(window.scrollY > 477);
+          break;
+      }
     });
   }, []);
 

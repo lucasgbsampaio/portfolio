@@ -43,18 +43,6 @@ html {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 480px) {
-  #wrapper {
-    max-width: calc(100% - 2em);
-  }
-}
-
-@media screen and (max-width: 360px) {
-  #wrapper {
-    max-width: 100%;
-  }
-}
-
 #header {
   animation: 1.5s ease 0s normal forwards 1 fadein;
   -webkit-animation: 1.5s ease 0s normal forwards 1 fadein;
@@ -201,4 +189,82 @@ html {
 .main.special .major h2::after {
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (max-width: 1280px) {
+  body,
+  input,
+  select,
+  textarea,
+  a {
+    font-size: 12pt;
+  }
+
+  #main > .main {
+    padding: 4em 4em 2em 4em;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  #main > .main {
+    padding: 4em 3em 2em 3em;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  #main > .main {
+    padding: 3em 2em 1em 2em;
+  }
+
+  #header h1 {
+    font-size: 2.5em;
+  }
+
+  #header p {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #wrapper {
+    max-width: calc(100% - 2em);
+  }
+
+  #main > .main {
+    padding: 3em 1.5em 1em 1.5em;
+  }
+
+  #nav {
+    display: none;
+  }
+
+  #nav + #main {
+    padding-top: 0;
+  }
+
+  .main .major h2::after {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  body,
+  input,
+  select,
+  textarea {
+    font-size: 11pt;
+  }
+
+  #wrapper {
+    max-width: 100%;
+  }
+
+  #main {
+    border-radius: 0;
+  }
+
+  #main > .main {
+    padding: 2.5em 1em 0.5em 1em;
+  }
 }
