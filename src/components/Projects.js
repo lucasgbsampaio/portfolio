@@ -4,6 +4,8 @@ import chatapp from '../assets/images/chatapp.png';
 import toDoList from '../assets/images/to-do.png';
 import weatherabove from '../assets/images/weatherabove.png';
 import dogs from '../assets/images/dogs.png';
+import cfpApp from '../assets/images/cfp-app.png';
+import portfolio from '../assets/images/portfolio.png';
 
 import style from './styles/Projects.module.css';
 
@@ -90,14 +92,14 @@ export default function Projects() {
         </li>
         <li>
           <div className={style.image}>
-            <img src={chatapp} alt="chatapp" />
+            <img src={portfolio} alt="portfolio" />
           </div>
           <h3>Portfólio</h3>
           <p>Meu Portfólio feito com React, totalmente responsivo.</p>
           <footer className={style.footerImage}>
             <ul>
               <li>
-                <a href="https://lucas-sampaio.github.io">Live Demo</a>
+                <a href="https://lucasfe4nor.github.io/portfolio">Live Demo</a>
                 <a href="https://github.com/lucasfe4nor/portfolio">Github</a>
               </li>
             </ul>
@@ -105,19 +107,20 @@ export default function Projects() {
         </li>
         <li>
           <span className={style.image}>
-            <img src={chatapp} alt="chatapp" />
+            <img src={cfpApp} alt="cfpApp" />
           </span>
-          <h3>Happy</h3>
+          <h3>Controle de Finanças Pessoal</h3>
           <p>
-            Feito no dia das Crianças, é um aplicativo de registro de
-            Acolhimento Institucional e possui uma versão Mobile com React
-            Native.
+            Projeto sugerido pelo Bootcamp Full Stack do IGTI, que consiste em
+            desenvolver um controle de finanças pessoal.
           </p>
           <footer className={style.footerImage}>
             <ul>
               <li>
-                <a href={{}}>Live Demo</a>
-                <a href="https://github.com/lucasfe4nor/happy-app-nlw">
+                <a href="https://app-cfp-desafio-final.herokuapp.com">
+                  Live Demo
+                </a>
+                <a href="https://github.com/lucasfe4nor/app-cfp-bootcampigti">
                   Github
                 </a>
               </li>
