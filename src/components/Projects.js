@@ -29,8 +29,20 @@ export default function Projects() {
           <footer className={style.footerImage}>
             <ul>
               <li>
-                <a href="https://chat-pern.herokuapp.com/">Live Demo</a>
-                <a href="https://github.com/lucasfe4nor/chatroom-app">Github</a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://chat-pern.herokuapp.com/"
+                >
+                  Live Demo
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/lucasfe4nor/chatroom-app"
+                >
+                  Github
+                </a>
               </li>
             </ul>
           </footer>
@@ -47,8 +59,20 @@ export default function Projects() {
           <footer className={style.footerImage}>
             <ul>
               <li>
-                <a href="https://appweather-above.herokuapp.com">Live Demo</a>
-                <a href="https://github.com/lucasfe4nor/app-weather">Github</a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://appweather-above.herokuapp.com"
+                >
+                  Live Demo
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/lucasfe4nor/app-weather"
+                >
+                  Github
+                </a>
               </li>
             </ul>
           </footer>
@@ -65,8 +89,20 @@ export default function Projects() {
           <footer className={style.footerImage}>
             <ul>
               <li>
-                <a href="https://dogss-app.herokuapp.com">Live Demo</a>
-                <a href="https://github.com/lucasfe4nor/app-dogs">Github</a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://dogss-app.herokuapp.com"
+                >
+                  Live Demo
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/lucasfe4nor/app-dogs"
+                >
+                  Github
+                </a>
               </li>
             </ul>
           </footer>
@@ -84,8 +120,20 @@ export default function Projects() {
           <footer className={style.footerImage}>
             <ul>
               <li>
-                <a href="https://to-do-lisst.herokuapp.com">Live Demo</a>
-                <a href="https://github.com/lucasfe4nor/to-do-app">Github</a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://to-do-lisst.herokuapp.com"
+                >
+                  Live Demo
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/lucasfe4nor/to-do-app"
+                >
+                  Github
+                </a>
               </li>
             </ul>
           </footer>
@@ -99,8 +147,20 @@ export default function Projects() {
           <footer className={style.footerImage}>
             <ul>
               <li>
-                <a href="https://lucasfe4nor.github.io/portfolio">Live Demo</a>
-                <a href="https://github.com/lucasfe4nor/portfolio">Github</a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://lucasfe4nor.github.io/portfolio"
+                >
+                  Live Demo
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/lucasfe4nor/portfolio"
+                >
+                  Github
+                </a>
               </li>
             </ul>
           </footer>
@@ -117,10 +177,18 @@ export default function Projects() {
           <footer className={style.footerImage}>
             <ul>
               <li>
-                <a href="https://app-cfp-desafio-final.herokuapp.com">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://app-cfp-desafio-final.herokuapp.com"
+                >
                   Live Demo
                 </a>
-                <a href="https://github.com/lucasfe4nor/app-cfp-bootcampigti">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/lucasfe4nor/app-cfp-bootcampigti"
+                >
                   Github
                 </a>
               </li>
