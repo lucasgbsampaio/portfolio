@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.813cc8b7.chunk.css",
+    "main.js": "/portfolio/static/js/main.7082f47e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7082f47e.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.c3cfb48a.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.c3cfb48a.js.map",
+    "static/css/2.679831fc.chunk.css": "/portfolio/static/css/2.679831fc.chunk.css",
+    "static/js/2.48b3279c.chunk.js": "/portfolio/static/js/2.48b3279c.chunk.js",
+    "static/js/2.48b3279c.chunk.js.map": "/portfolio/static/js/2.48b3279c.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/2.679831fc.chunk.css.map": "/portfolio/static/css/2.679831fc.chunk.css.map",
+    "static/css/main.813cc8b7.chunk.css.map": "/portfolio/static/css/main.813cc8b7.chunk.css.map",
+    "static/js/2.48b3279c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.48b3279c.chunk.js.LICENSE.txt",
+    "static/media/chatapp.8ea6e72c.png": "/portfolio/static/media/chatapp.8ea6e72c.png",
+    "static/media/dogs.2580c607.png": "/portfolio/static/media/dogs.2580c607.png",
+    "static/media/to-do.71c437f1.png": "/portfolio/static/media/to-do.71c437f1.png",
+    "static/media/weatherabove.8bce35dc.png": "/portfolio/static/media/weatherabove.8bce35dc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c3cfb48a.js",
+    "static/css/2.679831fc.chunk.css",
+    "static/js/2.48b3279c.chunk.js",
+    "static/css/main.813cc8b7.chunk.css",
+    "static/js/main.7082f47e.chunk.js"
+  ]
+}
