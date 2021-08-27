@@ -1,5 +1,5 @@
 <h1 align="center">
-     <a href="http://lucasfe4nor.github.io/portfolio" alt="Lucas Sampaio">Lucas Sampaio</a>
+     <a href="http://lucasgbsampaio.github.io/portfolio" alt="Lucas Sampaio">Lucas Sampaio</a>
 </h1>
 
 Este repositório se trata do meu portfólio, hospedado no github pages e totalmente responsivo.
@@ -25,7 +25,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 ```
 # Clone este repositório
-$ git clone https://github.com/lucasfe4nor/portfolio.git
+$ git clone https://github.com/lucasgbsampaio/portfolio.git
 
 # Acesse a pasta do projeto no terminal/cmd para ter acesso a raiz da pasta
 $ cd portfolio
@@ -56,7 +56,7 @@ Concluído ✔️✔️✔️
 
 ## 👨‍💻 Autor
 
-- **Lucas Sampaio (lucasfe4nor)** - [Twitter](https://twitter.com/lucasfe4nor) - [LinkedIn](https://www.linkedin.com/in/lucasgbsampaio/)
+- **Lucas Sampaio (lucasgbsampaio)** - [Twitter](https://twitter.com/lucasgbsampaio) - [LinkedIn](https://www.linkedin.com/in/lucasgbsampaio/)
 
 ---
 
